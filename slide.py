@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 def sliding(lst, size, step=1):
-    return (lst[idx:idx+size] for idx in xrange(0, len(lst), step))
+    return (lst[idx:idx+size] for idx in xrange(0, len(lst)-size+1, step))
 
 if __name__ == "__main__":
     import argparse
@@ -14,5 +14,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     for window in sliding(args.strings[0], args.size):
-        if len(window) == args.size:
-            print("".join(window))
+        print("".join(window))

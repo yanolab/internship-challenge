@@ -17,4 +17,4 @@ if __name__ == "__main__":
     size = args.splitsize[0]
     indigits = args.file.read().strip()
 
-    print(max(reduce(mul, map(int, x)) for x in slide.sliding(indigits, size) if len(x) == size))
+    print(max(reduce(mul, map(int, x)) for x in slide.sliding(indigits, size)))
