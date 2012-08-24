@@ -86,8 +86,11 @@ Q5. 文字列処理
  次のURL([https://raw.github.com/yanolab/internship-challenge/master/digits.txt](https://raw.github.com/yanolab/internship-challenge/master/digits.txt))で与えられた数字から5つの連続する数字を取り出して その積を計算する。そのような積の中で最大のものの値はいくらかもとめるプログラムを作成せよ。ただし、ファイルはプログラムから直接ロードしても、ローカルにダウンロードしてから利用しても構わない。
 
     # file -> 123456789
-    > digits.exe url_or_file
+    > digits.exe file
     15120
+
+	> digits.exe https://raw.github.com/yanolab/internship-challenge/master/digits.txt
+	31752
 
 Q6. 素数
 --------
@@ -96,4 +99,3 @@ Q6. 素数
 
     > prime.exe 10001
     104743
-
