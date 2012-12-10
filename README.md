@@ -50,15 +50,15 @@ Q2. 世界のナベアツ問題
     Aho
     10
     .
-	.
-	.
-	29
-	Aho
-	Aho
-	Aho
-	.
-	.
-	.
+    .
+    .
+    29
+    Aho
+    Aho
+    Aho
+    .
+    .
+    .
 
 Q3. スライド関数
 ----------------
@@ -67,18 +67,18 @@ Q3. スライド関数
 
     > slidestr.exe 2 ABCDEFG
     AB
-	BC
-	CD
-	DE
-	EF
-	FG
+    BC
+    CD
+    DE
+    EF
+    FG
 
-	> slidestr.exe 3 ABCDEFG
-	ABC
-	BCD
-	CDE
-	DEF
-	EFG
+    > slidestr.exe 3 ABCDEFG
+    ABC
+    BCD
+    CDE
+    DEF
+    EFG
 
 Q5. 文字列処理
 --------------
@@ -89,8 +89,8 @@ Q5. 文字列処理
     > digits.exe file
     15120
 
-	> digits.exe https://raw.github.com/yanolab/internship-challenge/master/digits.txt
-	31752
+    > digits.exe https://raw.github.com/yanolab/internship-challenge/master/digits.txt
+    31752
 
 Q6. 素数
 --------
