@@ -80,7 +80,7 @@ Q3. スライド関数
     DEF
     EFG
 
-Q5. 文字列処理
+Q4. 文字列処理
 --------------
 
  次のURL([https://raw.github.com/yanolab/internship-challenge/master/digits.txt](https://raw.github.com/yanolab/internship-challenge/master/digits.txt))で与えられた数字から5つの連続する数字を取り出して その積を計算する。そのような積の中で最大のものの値はいくらかもとめるプログラムを作成せよ。ただし、ファイルはプログラムから直接ロードしても、ローカルにダウンロードしてから利用しても構わない。
@@ -92,7 +92,7 @@ Q5. 文字列処理
     > digits.exe https://raw.github.com/yanolab/internship-challenge/master/digits.txt
     31752
 
-Q6. 素数
+Q5. 素数
 --------
 
  素数を小さい方から6つ並べると 2, 3, 5, 7, 11, 13 であり、6番目の素数は 13 である。コマンドラインから数xを受け取り、x番目の素数を求めるプログラムを作成せよ。
